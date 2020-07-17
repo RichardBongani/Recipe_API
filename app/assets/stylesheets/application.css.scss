@@ -12,10 +12,60 @@
  *
  */
  @import "bootstrap";
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
  .navbar-nav .nav-item  .nav-link {
      color: #fff;
+     font-weight: bolder;
  }
+
+ .navbar-nav .nav-item  .nav-link:hover {
+    color: yellow;
+    font-weight: bolder;
+}
 
 .navbar .navbar-brand {
      color: #fff;
+     font-weight: bolder;
+ }
+
+ .navbar .navbar-brand:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+ .form-control {
+     width: 20em;
+ }
+
+ .form {
+     background-color: #fff;
+ }
+
+ .login {
+     margin: auto;
+     max-width: 330px;
+     width: 100%;
+     padding: 15px;
+     margin-top: 8em;
+ }
+
+ .login_btn {
+     width:  15em;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+
+ .vibes {
+     width: 7em;
+     height: 7em;
  }

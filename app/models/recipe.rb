@@ -5,7 +5,7 @@ class Recipe < ApplicationRecord
     default_params onlyImages: 1 
     format:json
 
-    def self.for(keyword = 'chocolate')
+    def self.for(keyword = 'Chocolate')
         get('', query: {q: keyword})['results']
     end
 end
