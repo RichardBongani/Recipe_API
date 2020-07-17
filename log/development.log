@@ -1,0 +1,799 @@
+Started GET "/" for ::1 at 2020-07-17 12:12:41 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (8.8ms)
+Completed 200 OK in 48ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:17:12 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
+Completed 200 OK in 47ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:17:59 +0200
+
+AbstractController::ActionNotFound - The action ' index' could not be found for RecipesController:
+
+Started POST "/__better_errors/8e7cbe58066e1102/variables" for ::1 at 2020-07-17 12:18:00 +0200
+Started GET "/" for ::1 at 2020-07-17 12:18:19 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12783ms (Views: 12781.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:24:07 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:25:12 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...ervices_path, class'nav-link' );@output_buffer.safe_append='
+...                              ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/_navbar.html.erb:20: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...contact_path, class'nav-link' );@output_buffer.safe_append='
+...                              ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/_navbar.html.erb:31: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/bongani/Desktop/Recipe_API/app/views/recipes/_navbar.html.erb:33: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/recipes/_navbar.html.erb:16:in `'
+  app/views/recipes/index.html.erb:1:in `_app_views_recipes_index_html_erb__457260849399473337_70172262502320'
+
+Started POST "/__better_errors/43c628af4649d17d/variables" for ::1 at 2020-07-17 12:25:12 +0200
+Started GET "/" for ::1 at 2020-07-17 12:26:34 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:26:46 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:26:57 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.7ms)
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:27:07 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.2ms)
+  Rendered recipes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/about" for ::1 at 2020-07-17 12:27:15 +0200
+Processing by RecipesController#about as HTML
+  Rendering recipes/about.html.erb within layouts/application
+  Rendered recipes/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 126ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/services" for ::1 at 2020-07-17 12:27:20 +0200
+Processing by RecipesController#services as HTML
+  Rendering recipes/services.html.erb within layouts/application
+  Rendered recipes/services.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 351ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/contact" for ::1 at 2020-07-17 12:27:22 +0200
+Processing by RecipesController#contact as HTML
+  Rendering recipes/contact.html.erb within layouts/application
+  Rendered recipes/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:29:01 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (760.0ms)
+  Rendered recipes/index.html.erb within layouts/application (761.2ms)
+Completed 500 Internal Server Error in 764ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - undefined local variable or method `recipes_login_path' for #<#<Class:0x00007fa47828d5d8>:0x00007fa4821486c8>
+Did you mean?  recipes_index_path
+               recipes_about_path:
+  app/views/recipes/_navbar.html.erb:22:in `view template'
+  app/views/recipes/_navbar.html.erb:22:in `_app_views_recipes__navbar_html_erb__1882277468489165214_70172266860360'
+  app/views/recipes/index.html.erb:1:in `_app_views_recipes_index_html_erb__457260849399473337_70172266874860'
+
+Started POST "/__better_errors/93444bf025afd47d/variables" for ::1 at 2020-07-17 12:29:02 +0200
+Started GET "/" for ::1 at 2020-07-17 12:31:07 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.5ms)
+  Rendered recipes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 248ms (Views: 246.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/login" for ::1 at 2020-07-17 12:31:14 +0200
+Processing by RecipesController#login as HTML
+  Rendering recipes/login.html.erb within layouts/application
+  Rendered recipes/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:31:42 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.0ms)
+  Rendered recipes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:31:54 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/login" for ::1 at 2020-07-17 12:31:56 +0200
+Processing by RecipesController#login as HTML
+  Rendering recipes/login.html.erb within layouts/application
+  Rendered recipes/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:33:00 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.2ms)
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4784ms (Views: 4782.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 12:36:00 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (4.5ms)
+  Rendered recipes/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 3163ms (Views: 3159.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 13:23:42 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.5ms)
+  Rendered recipes/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 4525ms (Views: 4499.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 13:24:09 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.9ms)
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2309ms (Views: 2306.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 13:24:54 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.6ms)
+  Rendered recipes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 13:26:24 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.5ms)
+  Rendered recipes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-17 13:26:44 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.7ms)
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:26:46 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:26:47 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.7ms)
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 183ms (Views: 181.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:26:47 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.4ms)
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:26:47 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.8ms)
+  Rendered recipes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:27:15 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2356ms (Views: 2354.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:27:42 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.9ms)
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2635ms (Views: 2634.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:28:02 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.7ms)
+  Rendered recipes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:28:53 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.1ms)
+  Rendered recipes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/contact" for ::1 at 2020-07-17 13:28:57 +0200
+Processing by RecipesController#contact as HTML
+  Rendering recipes/contact.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.0ms)
+  Rendered recipes/contact.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/services" for ::1 at 2020-07-17 13:28:59 +0200
+Processing by RecipesController#services as HTML
+  Rendering recipes/services.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.8ms)
+  Rendered recipes/services.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/about" for ::1 at 2020-07-17 13:29:00 +0200
+Processing by RecipesController#about as HTML
+  Rendering recipes/about.html.erb within layouts/application
+  Rendered recipes/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/about" for ::1 at 2020-07-17 13:29:14 +0200
+Processing by RecipesController#about as HTML
+  Rendering recipes/about.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (0.9ms)
+  Rendered recipes/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/login" for ::1 at 2020-07-17 13:29:18 +0200
+Processing by RecipesController#login as HTML
+  Rendering recipes/login.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.8ms)
+  Rendered recipes/login.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 13:29:21 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.6ms)
+  Rendered recipes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/login" for ::1 at 2020-07-17 13:29:50 +0200
+Processing by RecipesController#login as HTML
+  Rendering recipes/login.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.3ms)
+  Rendered recipes/login.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (257.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (134.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bin/rake:23
+Migrating to CreateRecipes (20200717113107)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200717113107_create_recipes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200717113107"]]
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (205.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-17 11:32:52.239137"], ["updated_at", "2020-07-17 11:32:52.239137"]]
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (487.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bin/rake:23
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:10:29 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/lib/ruby/vendor_ruby/sprockets/rails/quiet_assets.rb:13
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+    default_params onlyImages : 1 
+                              ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:7: syntax error, unexpected ':', expecting keyword_end
+    format: json
+          ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ':', expecting '}'
+        get('',query{q: keyword})['results']
+                      ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ']', expecting keyword_end
+...',query{q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:5:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/aa840be59090ae8f/variables" for ::1 at 2020-07-17 14:10:31 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:11:01 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+    default_params: onlyImages : 1 
+                  ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:7: syntax error, unexpected ':', expecting keyword_end
+    format: json
+          ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ':', expecting '}'
+        get('',query{q: keyword})['results']
+                      ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ']', expecting keyword_end
+...',query{q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:5:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/ac40182464756861/variables" for ::1 at 2020-07-17 14:11:01 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:11:14 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+    format: json
+          ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ':', expecting '}'
+        get('',query{q: keyword})['results']
+                      ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:10: syntax error, unexpected ']', expecting keyword_end
+...',query{q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:7:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/ccd791b017a0de2f/variables" for ::1 at 2020-07-17 14:11:14 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:11:37 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting '}'
+        get('',query{q: keyword})['results']
+                      ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:9: syntax error, unexpected ']', expecting keyword_end
+...',query{q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:9:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/5244d1854aaa56d9/variables" for ::1 at 2020-07-17 14:11:37 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:12:01 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.9ms)
+
+
+
+NoMethodError - undefined method `uri' for Recipe(id: integer, created_at: datetime, updated_at: datetime):Class
+Did you mean?  URI:
+  app/models/recipe.rb:4:in `<class:Recipe>'
+  app/models/recipe.rb:1:in `<top (required)>'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/e6aaa8fe869a3afc/variables" for ::1 at 2020-07-17 14:12:01 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:12:19 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `query' for Recipe(id: integer, created_at: datetime, updated_at: datetime):Class
+Did you mean?  to_query:
+  app/models/recipe.rb:9:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/ded6af33bcd5303c/variables" for ::1 at 2020-07-17 14:12:19 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:12:39 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting '}'
+        get('', query {q: keyword})['results']
+                        ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:9: syntax error, unexpected ']', expecting keyword_end
+... query {q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:9:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/adb6404db6d3394c/variables" for ::1 at 2020-07-17 14:12:39 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:13:25 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting '}'
+        get('', query { q: keyword})['results']
+                         ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:9: syntax error, unexpected ']', expecting keyword_end
+...query { q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:9:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/5403169262e36a0f/variables" for ::1 at 2020-07-17 14:13:25 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:13:53 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting '}'
+        get(" ", query { q: keyword})['results']
+                          ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:9: syntax error, unexpected ']', expecting keyword_end
+...query { q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:9:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/f485785a798095b0/variables" for ::1 at 2020-07-17 14:13:53 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:14:12 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting '}'
+        get(" ", query {q: keyword})['results']
+                         ^
+/home/bongani/Desktop/Recipe_API/app/models/recipe.rb:9: syntax error, unexpected ']', expecting keyword_end
+... query {q: keyword})['results']
+...                              ^:
+  app/models/recipe.rb:9:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/a97d3752e31f7632/variables" for ::1 at 2020-07-17 14:14:12 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:15:00 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+URI::InvalidURIError - bad URI(is not URI?):  :
+  app/models/recipe.rb:9:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/2d56e7a156fac393/variables" for ::1 at 2020-07-17 14:15:00 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:15:21 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 468ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `include?' for nil:NilClass:
+  app/models/recipe.rb:9:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/9059efe476d1ce69/variables" for ::1 at 2020-07-17 14:15:24 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:16:30 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `include?' for nil:NilClass:
+  app/models/recipe.rb:9:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/e8e77def23dd12fa/variables" for ::1 at 2020-07-17 14:16:30 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:22:42 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `include?' for nil:NilClass:
+  app/models/recipe.rb:9:in `for'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/03d5fe43b65bfb99/variables" for ::1 at 2020-07-17 14:22:43 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:23:18 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+    uri: 'http://www.recipepuppy.com/...
+       ^:
+  app/models/recipe.rb:4:in `'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/1f722504e23a4d23/variables" for ::1 at 2020-07-17 14:23:18 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:23:24 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+
+
+NoMethodError - undefined method `uri' for Recipe(id: integer, created_at: datetime, updated_at: datetime):Class
+Did you mean?  URI:
+  app/models/recipe.rb:4:in `<class:Recipe>'
+  app/models/recipe.rb:1:in `<top (required)>'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/3d51c1d8fa58e617/variables" for ::1 at 2020-07-17 14:23:24 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:31:19 +0200
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.4ms)
+
+
+
+NoMethodError - undefined method `uri' for Recipe(id: integer, created_at: datetime, updated_at: datetime):Class
+Did you mean?  URI:
+  app/models/recipe.rb:4:in `<class:Recipe>'
+  app/models/recipe.rb:1:in `<top (required)>'
+  app/controllers/recipes_controller.rb:4:in `index'
+
+Started POST "/__better_errors/75c1efd427fc0404/variables" for ::1 at 2020-07-17 14:31:19 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:32:16 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 855ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<'
+        <tr>
+        ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/index.html.erb:12: syntax error, unexpected ')', expecting keyword_end
+...pe['thumbnail'], href='recipe') ;@output_buffer.safe_append=...
+...                              ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~:
+  app/views/recipes/index.html.erb:11:in `'
+
+Started POST "/__better_errors/f62c9c51c70c7f5b/variables" for ::1 at 2020-07-17 14:32:18 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:32:58 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 516ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '<'
+        <tr>
+        ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/index.html.erb:12: syntax error, unexpected ')', expecting keyword_end
+...pe['thumbnail'], href='recipe') ;@output_buffer.safe_append=...
+...                              ^
+/home/bongani/Desktop/Recipe_API/app/views/recipes/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~:
+  app/views/recipes/index.html.erb:11:in `'
+
+Started POST "/__better_errors/9611e2e3fdbbddf1/variables" for ::1 at 2020-07-17 14:32:59 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:34:54 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.0ms)
+  Rendered recipes/index.html.erb within layouts/application (445.3ms)
+Completed 500 Internal Server Error in 962ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - undefined method `each' for nil:NilClass:
+  app/views/recipes/index.html.erb:10:in `view template'
+  app/views/recipes/index.html.erb:10:in `_app_views_recipes_index_html_erb__457260849399473337_70172277888600'
+
+Started POST "/__better_errors/9d8296355c4f690c/variables" for ::1 at 2020-07-17 14:34:55 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:37:46 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.3ms)
+  Rendered recipes/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 791ms (Views: 273.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:38:08 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (3.6ms)
+  Rendered recipes/index.html.erb within layouts/application (10.9ms)
+Completed 500 Internal Server Error in 965ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - undefined method `each' for nil:NilClass:
+  app/views/recipes/index.html.erb:10:in `view template'
+  app/views/recipes/index.html.erb:10:in `_app_views_recipes_index_html_erb__457260849399473337_70172251747120'
+
+Started POST "/__better_errors/5c8a03f7bbcc59a6/variables" for ::1 at 2020-07-17 14:38:09 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:38:31 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.6ms)
+  Rendered recipes/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - undefined method `each' for nil:NilClass:
+  app/views/recipes/index.html.erb:10:in `view template'
+  app/views/recipes/index.html.erb:10:in `_app_views_recipes_index_html_erb__457260849399473337_70172184423860'
+
+Started POST "/__better_errors/c4e7cc46e22657dd/variables" for ::1 at 2020-07-17 14:38:32 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:39:02 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.5ms)
+  Rendered recipes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 545ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:39:18 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.6ms)
+  Rendered recipes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 557ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:40:02 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.5ms)
+  Rendered recipes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 550ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:40:26 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.2ms)
+  Rendered recipes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 564ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:41:12 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.1ms)
+  Rendered recipes/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 554ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:41:49 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (2.3ms)
+  Rendered recipes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 540ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:42:24 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (3.3ms)
+  Rendered recipes/index.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 564ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::Template::Error - Missing partial recipes/_index.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/bongani/Desktop/Recipe_API/app/views"
+:
+  app/views/layouts/application.html.erb:14:in `view template'
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1606862473922962062_70172264697340'
+
+Started POST "/__better_errors/695918e69a8a7e51/variables" for ::1 at 2020-07-17 14:42:25 +0200
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:43:08 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.1ms)
+  Rendered recipes/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 574ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:43:21 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.3ms)
+  Rendered recipes/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 551ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/index" for ::1 at 2020-07-17 14:43:56 +0200
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/_navbar.html.erb (1.0ms)
+  Rendered recipes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 702ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
