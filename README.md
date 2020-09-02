@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+[![Run on Repl.it](https://repl.it/badge/github/RichardBongani/Recipe_API)](https://repl.it/github/RichardBongani/Recipe_API)
